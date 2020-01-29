@@ -9,10 +9,10 @@
 @Output: `ptt-gossiping.csv` file and info in console.
 
 
-* **Previous version**: In `18_crawler.py`, it could only crawl the post titles.
+* **Previous version**: In `18_crawler.py` on the `2020-Pyhton3-self-learning` repository, it could only crawl the post titles.
 ![](https://i.imgur.com/iseRS7h.png)
 
-* **Multi-thread version**: Program `19_crawler-with-thread.py` support downward access to each aritical in post list, in order to get **precise datetime** and **full aritical content**. Getting the comments below is capable, but no needed.
+* **Multi-thread version**: Program `crawler-with-thread.py` support downward access to each aritical in post list, in order to get **precise datetime** and **full aritical content**. Getting the comments below is capable, but no needed.
 Here, you see the csv file I produced. And you may compared to the post list present by web browser. The comment amount may have a bit different due to the time gap where I take screenshots. 
 ![](https://i.imgur.com/Wei1SZt.jpg)
 ![](https://i.imgur.com/c0dO4NU.jpg)
