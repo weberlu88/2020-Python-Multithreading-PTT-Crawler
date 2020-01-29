@@ -4,10 +4,10 @@
 
 ## Outcome Present
 
-```
-@Input: None. Can alter the amount of page to crawl in `main()` manually.
+
+> @Input: None. Can alter the amount of page to crawl in `main()` manually.  
 @Output: `ptt-gossiping.csv` file and info in console.
-```
+
 
 * **Previous version**: In `18_crawler.py`, it could only crawl the post titles.
 ![](https://i.imgur.com/iseRS7h.png)
