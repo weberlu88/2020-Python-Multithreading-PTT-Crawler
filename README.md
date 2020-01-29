@@ -25,10 +25,11 @@ Here, you see the csv file I produced. And you may compared to the post list pre
 ## Program Design
 
 1) Get a page HTML with a list of 20 (or so) posts.
-2) Loop: Get title, author, push from HTML. Store with object.
-3)       Threading to send request for each existing post. Retrive date, content and store with object.
-4) Join all threads and collect data from the current page. Store in csv file.
-5) Continue on crawling next page.
+2) Loop: 
+    * Get title, author, push from HTML. Store with object.     
+    * Threading to send request for each existing post aritical. Retrive date, content and store with object.
+3) Join all threads and collect data from the current page. Store in csv file.
+4) Continue on crawling next page.
 
 ```
 main()
